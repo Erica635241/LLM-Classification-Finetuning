@@ -21,7 +21,7 @@ The dataset consists of user interactions from the ChatBot Arena. I have 2 data 
 
 
 |id    |model_a           |model_b   |prompt                            |respoonse_a                                        |response_b|winner_model_a|winner_model_b|winner_model_tie|
-|------|------------------|----------|----------------------------------|---------------------------------------------------|----------|--------------|--------------|--------------+
+|------|------------------|----------|----------------------------------|---------------------------------------------------|----------|--------------|--------------|--------------|
 |30192|gpt-4-1106-preview|gpt-4-0613|Is it morally right to try to...|The question of whether it is morally right to...|As an AI, I don't have personal beliefs or ...|1|0|0|
 |53567|koala-13b|gpt-4-0613|What is the difference between marriage...|A marriage license is a...|A marriage license and a marriage certificate...|0|1|0|
 
