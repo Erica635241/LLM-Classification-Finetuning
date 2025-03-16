@@ -19,3 +19,6 @@ In this competition, the challenge was to predict which responses users will pre
 |------|------------------|----------|----------------------------------|---------------------------------------------------|----------|--------------|
 |30192|gpt-4-1106-preview|gpt-4-0613|Is it morally right to try to...|The question of whether it is morally right to...|As an AI, I don't have personal beliefs or ...|a|
 |53567|koala-13b|gpt-4-0613|What is the difference between marriage...|A marriage license is a...|A marriage license and a marriage certificate...|b|
+
+### Reference
+www.kaggle.com/competitions/llm-classification-finetuning/overview/$citation
