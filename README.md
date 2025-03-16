@@ -2,12 +2,12 @@
 
 Large language models (LLMs) are rapidly entering our lives, but ensuring their responses resonate with users is critical for successful interaction. This competition presents a unique opportunity to tackle this challenge with real-world data and help us bridge the gap between LLM capability and human preference.
 
-This completition utilized a large dataset collected from [Chatbot Arena]((https://lmarena.ai)), where users chat with two anonymous LLMs and choose the answer they prefer. My task in this competition is to predict which response a user will prefer in these head-to-head battles.
+This completition utilized a large dataset collected from [Chatbot Arena](https://lmarena.ai), where users chat with two anonymous LLMs and choose the answer they prefer. My task in this competition is to predict which response a user will prefer in these head-to-head battles.
 
 I plan to utilize and improve three different model architectures to complete this competition, and then analyze and compare their advantages and disadvantages.
 
 ### Dataset 
-Using a dataset of conversations from the Chatbot Arena, where different LLMs generated answers to user prompts.
+The dataset consists of user interactions from the ChatBot Arena. In each user interaction a judge provides one or more prompts to two different large language models, and then indicates which of the models gave the more satisfactory response. And the dataset detail follows below: 
 
 - id: A unique identifier for the row.
 
