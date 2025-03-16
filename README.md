@@ -1,8 +1,13 @@
 # Kaggle Completition: LLM Classification Finetunine
 
-In this competition, the challenge was to predict which responses users will prefer in a head-to-head battle between chatbots powered by large language models (LLMs). Using a dataset of conversations from the [Chatbot Arena](https://lmarena.ai), where different LLMs generated answers to user prompts. 
+Large language models (LLMs) are rapidly entering our lives, but ensuring their responses resonate with users is critical for successful interaction. This competition presents a unique opportunity to tackle this challenge with real-world data and help us bridge the gap between LLM capability and human preference.
+
+This completition utilized a large dataset collected from [Chatbot Arena]((https://lmarena.ai)), where users chat with two anonymous LLMs and choose the answer they prefer. My task in this competition is to predict which response a user will prefer in these head-to-head battles.
+
+I plan to utilize and improve three different model architectures to complete this competition, and then analyze and compare their advantages and disadvantages.
 
 ### Dataset 
+Using a dataset of conversations from the Chatbot Arena, where different LLMs generated answers to user prompts.
 
 - id: A unique identifier for the row.
 
