@@ -7,7 +7,7 @@ This completition utilized a large dataset collected from [Chatbot Arena](https:
 I plan to utilize and improve three different model architectures to complete this competition, and then analyze and compare their advantages and disadvantages.
 
 ### Dataset 
-The dataset consists of user interactions from the ChatBot Arena. In each user interaction a judge provides one or more prompts to two different large language models, and then indicates which of the models gave the more satisfactory response. And the dataset detail follows below: 
+The dataset consists of user interactions from the ChatBot Arena. I have 2 data files: ‘train.csv’, ‘test.csv’ and 1 submission file: ‘sample_submission.csv’. And the training dataset detail follows below: 
 
 - id: A unique identifier for the row.
 
@@ -17,13 +17,24 @@ The dataset consists of user interactions from the ChatBot Arena. In each user i
 
 - respoonse_[a/b]: The response from model_[a/b] to the given prompt.
 
-- winner_model: The ground truth target column markered including a, b, tie.
+- winner_model_[a/b/tie]: The ground truth target column.
 
 
-|id   |model_a           |model_b   |prompt                            |respoonse_a                                        |response_b|winner_model|
-|------|------------------|----------|----------------------------------|---------------------------------------------------|----------|--------------|
-|30192|gpt-4-1106-preview|gpt-4-0613|Is it morally right to try to...|The question of whether it is morally right to...|As an AI, I don't have personal beliefs or ...|a|
-|53567|koala-13b|gpt-4-0613|What is the difference between marriage...|A marriage license is a...|A marriage license and a marriage certificate...|b|
+|id    |model_a           |model_b   |prompt                            |respoonse_a                                        |response_b|winner_model_a|winner_model_b|winner_model_tie|
+|------|------------------|----------|----------------------------------|---------------------------------------------------|----------|--------------|--------------|--------------+
+|30192|gpt-4-1106-preview|gpt-4-0613|Is it morally right to try to...|The question of whether it is morally right to...|As an AI, I don't have personal beliefs or ...|1|0|0|
+|53567|koala-13b|gpt-4-0613|What is the difference between marriage...|A marriage license is a...|A marriage license and a marriage certificate...|0|1|0|
+
+The Shape of Dataset: 
+
+- Train Dataset(57477, 9): Total 19 Null response rows dropped. Totally I train 57458 samples.
+
+- Test Dataset: (25000, 4) 
+
+
+### Data Cleaning
+
+
 
 ### Reference
 www.kaggle.com/competitions/llm-classification-finetuning/overview/$citation
