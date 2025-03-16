@@ -6,7 +6,7 @@ This completition utilized a large dataset collected from [Chatbot Arena](https:
 
 I plan to utilize and improve three different model architectures to complete this competition, and then analyze and compare their advantages and disadvantages.
 
-### Dataset 
+## Dataset 
 The dataset consists of user interactions from the ChatBot Arena. I have 2 data files: ‘train.csv’, ‘test.csv’ and 1 submission file: ‘sample_submission.csv’. And the training dataset detail follows below: 
 
 - id: A unique identifier for the row.
@@ -32,9 +32,9 @@ The Shape of Dataset:
 - Test Dataset: (25000, 4) 
 
 
-### Data Cleaning
+## Data Cleaning
 
 
 
-### Reference
+## Reference
 www.kaggle.com/competitions/llm-classification-finetuning/overview/$citation
