@@ -49,7 +49,7 @@ Create Category Variable: It creates a new column named category by performing a
 
 ## Model Construction
 ### XGBoost
-I referenced the approach described in the [XGBoost feature engineering](https://www.kaggle.com/code/nikhilnb08/llm-classification-feature-engineering-xgboost) article. 
+I referenced the approach described in the [LLM Classification, Feature Engineering & XGBoost](https://www.kaggle.com/code/nikhilnb08/llm-classification-feature-engineering-xgboost) article. 
 
 In the first part, I used Python’s `readability` library to extract fundamental features from the text data, which includes readability grades, sentence information, counts of nouns and verbs in the sentences, and sentence relationships. 
 
