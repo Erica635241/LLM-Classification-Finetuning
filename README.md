@@ -33,10 +33,19 @@ The Shape of Dataset:
 
 
 ## Data Cleaning
-I applied the `text_cleaning` function to preprocess the text data by converting it to **lowercase**, **removing special characters**, **replacing multiple spaces** with a single space, and **stripping** leading and trailing whitespace in the prompt, response_a, and response_b columns.
+I applied the `text_cleaning` function to preprocess the text data:
 
-Copy
-Regenerate
+  - Converting all text to lowercase.
+
+  - Replacing escaped forward slashes (\/) with regular slashes (/) and replacing tab characters (\t) with a space.
+  
+  - Removing any special characters from the text, allowing only letters, numbers, spaces, and a few punctuation marks (.,!?()).
+  
+  - Replacing multiple whitespace characters with a single space for consistency.
+  
+  - Stripping any leading or trailing whitespace.
+
+Create Category Variable: It creates a new column named category by performing a dot product on three columns: winner_model_a, winner_model_b, and winner_tie, converting them into a single categorical variable.
 
 
 ## Reference
