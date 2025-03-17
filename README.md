@@ -33,7 +33,10 @@ The Shape of Dataset:
 
 
 ## Data Cleaning
+I applied the `text_cleaning` function to preprocess the text data by converting it to **lowercase**, **removing special characters**, **replacing multiple spaces** with a single space, and **stripping** leading and trailing whitespace in the prompt, response_a, and response_b columns.
 
+Copy
+Regenerate
 
 
 ## Reference
