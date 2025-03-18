@@ -51,11 +51,15 @@ Create Category Variable: It creates a new column named category by performing a
 ### XGBoost
 I referenced the approach described in the [LLM Classification, Feature Engineering & XGBoost](https://www.kaggle.com/code/nikhilnb08/llm-classification-feature-engineering-xgboost) article. 
 
+#### Feature Engineering:
+
 In the first part, I used Python’s `readability` library to extract fundamental features from the text data, which includes readability grades, sentence information, counts of nouns and verbs in the sentences, and sentence relationships. 
 
 In the second part, I calculated correlations by assessing the similarities between the prompts and the responses from model A and model B. The correlation metrics used include cosine similarity, Euclidean distances, and Manhattan distances.
 
 Based on the feature engineering described above, a total of **72 variables** were obtained.
+
+#### Parameter Tuning & Feature Selection Process: 
 
 <img width="1037" alt="image" src="https://github.com/user-attachments/assets/1b48601f-75e9-4691-861b-cc9bab484824" />
 
