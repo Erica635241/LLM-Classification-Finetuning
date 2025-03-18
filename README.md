@@ -57,6 +57,7 @@ In the second part, I calculated correlations by assessing the similarities betw
 
 Based on the feature engineering described above, a total of **72 variables** were obtained.
 
+<img width="1037" alt="image" src="https://github.com/user-attachments/assets/1b48601f-75e9-4691-861b-cc9bab484824" />
 
 ## Reference
 www.kaggle.com/competitions/llm-classification-finetuning/overview/$citation
